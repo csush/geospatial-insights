@@ -6,3 +6,4 @@ pytest==6.2.5
 shapely==1.8.0
 geojson==2.5.0
 sat-search==0.3.0
+geopandas==0.10.2
