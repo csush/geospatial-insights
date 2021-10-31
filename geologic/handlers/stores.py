@@ -33,7 +33,7 @@ class URLStore:
         """
         self.url = url
 
-    def _read(self):
+    def read(self):
         result = requests.get(self.url).content
         return result
 
