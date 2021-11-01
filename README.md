@@ -17,7 +17,7 @@ Project is created with:
 To run this project, install it locally using pip (ideally in a virtual environment):
 
 ```
-$ pip install https://github.com/csush/geospatial-insights.git
+$ pip install git+https://github.com/csush/geospatial-insights.git
 ```
 
 ## Usage
