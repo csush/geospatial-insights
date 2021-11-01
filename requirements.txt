@@ -1,9 +1,9 @@
-aiodns==3.0.0
-aiohttp==3.7.4.post0
-cchardet==2.1.7
 setuptools==44.0.0
 pytest==6.2.5
-shapely==1.8.0
-geojson==2.5.0
 sat-search==0.3.0
+sat-stac==0.4.1
 geopandas==0.10.2
+numpy==1.21.3
+click==8.0.3
+rasterio==1.2.10
+wheel==0.34.2
