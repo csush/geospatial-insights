@@ -13,6 +13,7 @@ Helps compute statistical measurements from STAC-compliant geospatial data sourc
 - All computations are in-memory
 - No data saved locally
 - No need to install GDAL on your system, everything is contained via pip
+- Uses multiprocessing to speed up clipping of multiple rasters
 	
 ## Technologies
 Project is created with:
