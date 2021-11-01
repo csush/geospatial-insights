@@ -24,9 +24,19 @@ To run this project, install it locally using pip (ideally in a virtual environm
 $ pip install git+https://github.com/csush/geospatial-insights.git
 ```
 
+## Testing
+Clone the project on your system and install the requirements.
+```
+# To run all tests
+$ coverage run -m pytest
+
+# To generate coverage report
+$ coverage report
+```
+
 ## Usage
 ```
-# check out available CLI options
+# Check out available CLI options
 $ geologic --help
 
 # Use a vector file path and a specific date

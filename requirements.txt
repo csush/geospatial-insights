@@ -7,3 +7,4 @@ numpy==1.21.3
 click==8.0.3
 rasterio==1.2.10
 wheel==0.34.2
+coverage==6.0.2
