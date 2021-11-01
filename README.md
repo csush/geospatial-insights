@@ -22,7 +22,12 @@ $ pip install https://github.com/csush/geospatial-insights.git
 
 ## Usage
 ```
-$ geologic --help       # check out available CLI options
+# check out available CLI options
+$ geologic --help
+
+# Use a vector file path and a specific date
 $ geologic --vector tests/data/mini_dh.geojson --datefilter 2021-01-01
+
+# Use a vector URL and a date range
 $ geologic --vector some_url_to_your_vector.geojson --datefilter 2021-01-01/2021-10-10
 ```
