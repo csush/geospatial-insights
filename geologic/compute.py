@@ -7,7 +7,6 @@ from .utils import clip_raster_using_vector
 import logging
 
 
-logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
